@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+    url('/assets/font/Mona-Sans.woff2') format('woff2 supports variations'),
+    url('/assets/font/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    font-family: 'Mona Sans';
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow: hidden;
+}
+
+  .container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+
+  section{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    scroll-snap-align: center;
+  }
+
+  h1{
+    color: #ffffff;
+    text-shadow: 1px 1px 4px #000;
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  
+  
+  /* pages */
+
+  .one{
+    background-image: url("/assets/img/girls2.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header{
+    background-image: linear-gradient(rgb(36 2 49), rgb(91 1 124 / 29%));
+    color: white;
+    width: 100vw;
+    padding: 2rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .tags{
+    /*background-color: pink;*/
+  }
+
+
+
+
+
+  
+  .two{
+    background-color: rgb(169, 238, 243);
+  }
+  .three{
+    background-color: rgb(196, 255, 162);
+  }
+  .four{
+    background-color: rgb(253, 255, 159);
+  }
