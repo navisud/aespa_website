@@ -56,9 +56,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+  
   .header{
-    background-image: linear-gradient(rgb(36 2 49), rgb(91 1 124 / 29%));
+    background: rgb(46,5,70);
+    background: linear-gradient(180deg, rgba(46,5,70,1) 0%, rgba(157,5,177,0.6671043417366946) 53%, rgba(255,255,255,0) 100%);
     color: white;
     width: 100vw;
     padding: 2rem;
@@ -73,18 +74,40 @@ body{
   .tags{
     /*background-color: pink;*/
   }
-
-
-
-
-
+  
+  
+  
+  
+  /* pages */
+  
+  .one{
+    background-image: url("/assets/img/girls2.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   .two{
-    background-color: rgb(169, 238, 243);
+    background-image: url("/assets/img/gigi2.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .three{
-    background-color: rgb(196, 255, 162);
+    background-image: url("/assets/img/winter2.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .four{
-    background-color: rgb(253, 255, 159);
+    background-image: url("/assets/img/karina1.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .five{
+    background-image: url("/assets/img/nigning1.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
