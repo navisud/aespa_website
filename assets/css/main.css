@@ -48,18 +48,11 @@ body{
 
   
   
-  /* pages */
+  /* header */
 
-  .one{
-    background-image: url("/assets/img/girls2.jfif");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
   .header{
-    background: rgb(46,5,70);
-    background: linear-gradient(180deg, rgba(46,5,70,1) 0%, rgba(157,5,177,0.6671043417366946) 53%, rgba(255,255,255,0) 100%);
+    background: #43228C;
+    background: linear-gradient(180deg, #43228C 0%, #43228C 53%, rgba(255,255,255,0) 100%);
     color: white;
     width: 100vw;
     padding: 2rem;
@@ -70,43 +63,57 @@ body{
     justify-content: space-between;
     align-items: flex-start;
   }
-
-  .tags{
-    /*background-color: pink;*/
+  
+  .icon_header img{
+    width: 8rem;
+    height: 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   
+  /* tags */
+
+  .tags{
+    display: flex;
+    width: 50rem;
+    height: 2rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
   
   
   /* pages */
-  
   .one{
-    background-image: url("/assets/img/girls2.jfif");
+    background-image: url("/assets/img/members/girls2.jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .two{
-    background-image: url("/assets/img/gigi2.jfif");
+    background-image: url("/assets/img/members/gigi2.jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .three{
-    background-image: url("/assets/img/winter2.jfif");
+    background-image: url("/assets/img/members/winter2.jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .four{
-    background-image: url("/assets/img/karina1.jfif");
+    background-image: url("/assets/img/members/karina1.jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .five{
-    background-image: url("/assets/img/nigning1.jfif");
+    background-image: url("/assets/img/members/nigning1.jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
