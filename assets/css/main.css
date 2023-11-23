@@ -31,9 +31,9 @@ body{
   section{
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     scroll-snap-align: center;
   }
@@ -44,6 +44,25 @@ body{
     font-weight: 700;
     font-size: 4rem;
     text-transform: uppercase;
+    margin: 0px;
+  }
+
+  .small_txt{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 31rem;
+    height: 8rem;
+    margin: 2rem;
+  }
+
+  .small_txt p{
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+    width: 22rem;
   }
 
   
