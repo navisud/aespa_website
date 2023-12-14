@@ -45,7 +45,15 @@ body{
     font-size: 4rem;
     text-transform: uppercase;
     margin: 0px;
+    padding: 2rem;
   }
+
+  .title_1{
+    width: 35rem;
+    padding: 0rem;
+  }
+
+  /* homepage small_txt*/
 
   .small_txt{
     display: flex;
@@ -61,7 +69,7 @@ body{
   .small_txt p{
     color: #ffffff;
     font-size: 1.3rem;
-    margin-top: 1.3rem;
+    margin-top: 1rem;
     width: 22rem;
   }
 
@@ -70,8 +78,7 @@ body{
   /* header */
 
   .header{
-    background: #43228C;
-    background: linear-gradient(180deg, #43228C 0%, #43228C 53%, rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(to top, rgba(133, 25, 162, 0), #1C0D38);
     color: white;
     width: 100vw;
     padding: 2rem;
@@ -82,6 +89,13 @@ body{
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  /*.bg_color{
+    background-image: linear-gradient(to top, rgba(133, 25, 162, 0), #1C0D38);
+    width: 100vw;
+    height: 50vh;
+    
+  }*/
   
   .icon_header img{
     width: 8rem;
@@ -108,32 +122,32 @@ body{
   /* pages */
   .one{
     background-image: url("/assets/img/members/girls2.jfif");
-    background-position: center;
+    background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .two{
     background-image: url("/assets/img/members/gigi2.jfif");
-    background-position: center;
+    background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .three{
     background-image: url("/assets/img/members/winter2.jfif");
-    background-position: center;
+    background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .four{
     background-image: url("/assets/img/members/karina1.jfif");
-    background-position: center;
+    background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .five{
     background-image: url("/assets/img/members/nigning1.jfif");
-    background-position: center;
+    background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
