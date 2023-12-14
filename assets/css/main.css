@@ -39,7 +39,7 @@ body{
   }
 
   h1{
-    color: #ffffff;
+    color: #e3dbd5;
     text-shadow: 1px 1px 4px #000;
     font-weight: 700;
     font-size: 4rem;
@@ -64,21 +64,39 @@ body{
     width: 31rem;
     height: 8rem;
     margin: 2rem;
+    color: #e4ddd7;
   }
 
   .small_txt p{
-    color: #ffffff;
+    color: #e4ddd7;
+    font-weight: 400;
     font-size: 1.3rem;
     margin-top: 1rem;
     width: 22rem;
   }
 
+  .bt_home{
+    font-weight: 500;
+    font-family: 'Mona Sans';
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    display: flex;
+    width: 12rem;
+    height: 3rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #CFC8CA;
+    color: #45365a;
+  }
   
   
   /* header */
 
   .header{
-    background-image: linear-gradient(to top, rgba(133, 25, 162, 0), #1C0D38);
     color: white;
     width: 100vw;
     padding: 2rem;
@@ -90,12 +108,12 @@ body{
     align-items: flex-start;
   }
 
-  /*.bg_color{
-    background-image: linear-gradient(to top, rgba(133, 25, 162, 0), #1C0D38);
+  .bg_color{
+    background-image: linear-gradient(to top, rgba(133, 25, 162, 0), #13092E);
     width: 100vw;
     height: 50vh;
     
-  }*/
+  }
   
   .icon_header img{
     width: 8rem;
@@ -116,6 +134,8 @@ body{
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
+    font-weight: 500;
+    color: #e3dcd6;
   }
   
   
