@@ -44,7 +44,7 @@ body{
     font-weight: 700;
     font-size: 4rem;
     text-transform: uppercase;
-    margin: 0px;
+    margin-top: 6rem;
     padding: 2rem;
   }
 
@@ -64,6 +64,7 @@ body{
     width: 31rem;
     height: 8rem;
     margin: 2rem;
+    margin-top: 12rem;
     color: #e4ddd7;
   }
 
@@ -97,15 +98,17 @@ body{
   /* header */
 
   .header{
-    color: white;
-    width: 100vw;
-    padding: 2rem;
-    height: 11rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
+  color: white;
+  width: 100vw;
+  padding: 2rem;
+  height: 11rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  top: 0;
+  position: fixed;
   }
 
   .bg_color{
