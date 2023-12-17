@@ -44,13 +44,12 @@ body{
     font-weight: 700;
     font-size: 4rem;
     text-transform: uppercase;
-    margin-top: 6rem;
-    padding: 2rem;
   }
 
   .title_1{
     width: 35rem;
-    padding: 0rem;
+    padding: 0;
+    margin-bottom: 0;
   }
 
   /* homepage small_txt*/
@@ -143,33 +142,52 @@ body{
   
   
   /* pages */
+
+  .resume-box{
+    display: flex;
+    width: 28rem;
+    height: 16rem;
+    text-align: justify;
+    margin: 2rem;
+      margin-top: 2rem;
+    flex-direction: column;
+    margin-top: 6rem;
+    color: #dfd8d3;
+    font-weight: 500;
+    font-size: large;
+  }
+
+  .resume-box p{
+    margin-top: -10px;
+  }
+
   .one{
-    background-image: url("/assets/img/members/girls2.jfif");
+    background-image: url("/assets/img/members/girls2.jpg");
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .two{
-    background-image: url("/assets/img/members/gigi2.jfif");
+    background-image: url("/assets/img/members/gigi2.jpeg");
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .three{
-    background-image: url("/assets/img/members/winter2.jfif");
+    background-image: url("/assets/img/members/winter2.jpeg");
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .four{
-    background-image: url("/assets/img/members/karina1.jfif");
+    background-image: url("/assets/img/members/karina1.jpeg");
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .five{
-    background-image: url("/assets/img/members/nigning1.jfif");
+    background-image: url("/assets/img/members/nigning1.jpeg");
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
