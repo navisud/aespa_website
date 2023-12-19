@@ -38,6 +38,8 @@ body{
     scroll-snap-align: center;
   }
 
+  /* title */
+
   h1{
     color: #e3dbd5;
     text-shadow: 1px 1px 4px #000;
@@ -139,6 +141,18 @@ body{
     font-weight: 500;
     color: #e3dcd6;
   }
+
+  a{
+    color: #dfd8d3;
+  }
+
+  a:hover{
+    color: #dfd8d3;
+    text-decoration: underline;
+    cursor: pointer ;
+  }
+
+  
   
   
   /* pages */
