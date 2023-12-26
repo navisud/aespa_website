@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Mona Sans';
-  src:
-    url('/assets/font/Mona-Sans.woff2') format('woff2 supports variations'),
-    url('/assets/font/Mona-Sans.woff2') format('woff2-variations');
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -14,7 +5,7 @@
 }
 
 html{
-    font-family: 'Mona Sans';
+    font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -175,33 +166,34 @@ body{
     margin-top: -10px;
   }
 
-  .one{
-    background-image: url("/assets/img/members/girls2.jpg");
+  .girls-bg{
+    background-image: url(https://wallpapercave.com/wp/wp8033556.jpg);
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
-  .two{
-    background-image: url("/assets/img/members/gigi2.jpeg");
+  .gisele-bg{
+    background-image: url(https://wallpapercave.com/w/wp8017215.jpg);
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .three{
-    background-image: url("/assets/img/members/winter2.jpeg");
+  .winter-bg{
+    background-image: url(https://wallpapercave.com/wp/wp8006674.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .karina-bg{
+    background-image: url(https://wallpapercave.com/wp/wp8006742.jpg);
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .four{
-    background-image: url("/assets/img/members/karina1.jpeg");
-    background-position: initial;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .five{
-    background-image: url("/assets/img/members/nigning1.jpeg");
+  .ningning-bg{
+    background-image: url(https://wallpapercave.com/wp/wp8017273.jpg);
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
