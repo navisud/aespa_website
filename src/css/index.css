@@ -82,8 +82,42 @@ body{
   font-weight: 500;
   color: #e3dcd6;
   }
-
   
+  /* dropdown */
+  .dropdown{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .dropdown img{
+    width: 20px;
+  }
+
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+    z-index: 1;
+    justify-content: center;    
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: grid;
+  }
+
+  .dropdown-content a{
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    user-select: none;
+  }
+
+
+  /* background */
   .background .home,
   .background .karina,
   .background .winter,
