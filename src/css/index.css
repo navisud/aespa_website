@@ -120,7 +120,7 @@ body{
   /* background */
   .background .home,
   .background .karina,
-  .background .winter,
+  .background #winter,
   .background .giselle,
   .background .ning 
   {
@@ -134,21 +134,21 @@ body{
   }
    
   .home{
-    background-image: url("../img/aegirls.jpg");
+    background-image: url("/assets/img/mamba/aegirls.jpg");
   }
 
   .karina{
-    background-image: url("../img/karina1.jpg");
+    background-image: url("/assets/img/mamba/karina1.jpg");
   }
 
-  .winter{
-    background-image: url("../img/winter.jpg");
+  #winter{
+    background-image: url("/assets/img/mamba/winter.jpg");
   }
 
   .giselle{
-    background-image: url("../img/giselle.jpg");
+    background-image: url("/assets/img/mamba/giselle.jpg");
   }
   
   .ning{
-    background-image: url("../img/ning.jpg");
+    background-image: url("/assets/img/mamba/ning.jpg");
   }
