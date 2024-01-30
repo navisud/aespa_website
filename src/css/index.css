@@ -118,11 +118,11 @@ body{
 
 
   /* background */
-  .background .home,
-  .background .karina,
+  .background #home,
+  .background #karina,
   .background #winter,
-  .background .giselle,
-  .background .ning 
+  .background #giselle,
+  .background #ning 
   {
     height: 100vh;
     width: 100vw;
@@ -133,11 +133,11 @@ body{
     background-position: center;
   }
    
-  .home{
+  #home{
     background-image: url("/assets/img/mamba/aegirls.jpg");
   }
 
-  .karina{
+  #karina{
     background-image: url("/assets/img/mamba/karina1.jpg");
   }
 
@@ -145,10 +145,10 @@ body{
     background-image: url("/assets/img/mamba/winter.jpg");
   }
 
-  .giselle{
+  #giselle{
     background-image: url("/assets/img/mamba/giselle.jpg");
   }
   
-  .ning{
+  #ning{
     background-image: url("/assets/img/mamba/ning.jpg");
   }
