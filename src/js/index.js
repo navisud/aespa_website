@@ -48,7 +48,11 @@ era.drama.id.addEventListener('click', () =>{
 })
 
 era.better.id.addEventListener('click', () =>{
-
+        girls.home.id.style.backgroundImage = 'url(/assets/img/better/homeB.jpg)';
+        girls.winter.id.style.backgroundImage = 'url(/assets/img/better/winterB.jpg)';
+        girls.karina.id.style.backgroundImage = 'url(/assets/img/better/karinaB.jpg)';
+        girls.giselle.id.style.backgroundImage = 'url(/assets/img/better/giselleB.jpg)';
+        girls.ning.id.style.backgroundImage =  'url(/assets/img/better/ningB.jpg)';
 })
 
 era.girls.id.addEventListener('click', ()=>{
