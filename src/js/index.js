@@ -1,4 +1,5 @@
 const drop = document.getElementById('drop').children;
+const colorbg = document.getElementsByClassName('background');
 
 const era = {
         drama:{
@@ -17,7 +18,6 @@ const era = {
                 id: drop[4]
         }
 }
-
 const girls = {
         home:{
                 id: document.getElementById('home')
